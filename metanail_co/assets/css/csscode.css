@@ -1,0 +1,592 @@
+:root {
+    --primary-color: #00305B;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Titillium Web", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+img {
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+p {
+    margin-bottom: 22px;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    color: #2f2f2f;
+}
+h3 {
+    font-size: 2.6rem;
+    padding-top: 1rem;
+    margin-bottom: 10px;
+    color: #2b23ff;
+}
+#scroll_topreadbar{
+    background-color: #00305B;
+    height: 8px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.gif-buy-btn {
+    text-align: center;
+    margin: 15px 0;
+}
+.gif-buy-btn img {
+    width: 100%;
+    max-width: 430px;
+    cursor: pointer;
+    margin-top: -2.8em;
+}
+.section {
+    padding: 20px 0;
+}
+.btn {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.subtitle {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.text-center {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.header__timer {
+  margin-top: 40px;
+}
+.header__timer-item {
+  margin: 0 12px;
+}
+.header__timer-item h2 {
+  background-color: #ffce3a;
+  border: 4px solid #f09000;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  font-size: 2.8rem;
+  color: #000;
+}
+.header__timer-item p {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.548);
+  padding-top: 17px;
+}
+.what-is-abc {
+    margin-top: 30px;
+}
+.margin-bottom {
+    margin-bottom: 35px;
+}
+.pages-title {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.yellow-text {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(246, 255, 0);
+}
+.top_navbar {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+}
+.top_nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_logo {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.top_nav-menu {
+    display: none;
+}
+.padding_top-item {
+    padding: 40px 0;
+}
+.top_title {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.top_subtitle {
+    color: #00ab00;
+    font-size: 2.2rem;
+}
+.listbarul_list {
+    margin: 30px 0;
+}
+.benefits_list-item {
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.benefits_list-item::before {
+    content: "⭐";
+    font-size: 22px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.Metanail_buy-btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #fd1644;
+    border-radius: 7px;
+    padding: 22px 30px;
+}
+.Metanail_buy__btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #fd1644;
+    border-radius: 7px;
+    padding: 22px 30px;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+.product_img {
+    width: 100%;
+    max-width: 800px;
+    cursor: pointer;
+}
+.bonuses-section {
+    background-color: #F8F8F8;
+}
+.bonusesimg img {
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+}
+.bonusesimg {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Metanail-a {
+    color: #2f2f2f;
+    cursor: pointer;
+}
+.ulcenter_benefits__list {
+    margin: 30px 0;
+}
+.long__benefits_list-item {
+    font-weight: 400;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.long__benefits_list-item::before {
+    content: "\2714";
+    font-weight: 800;
+    color: #10c000;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+.how-does-works-item {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #000dff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.how-does-works-item::before {
+    content: "\2714";
+    font-weight: 800;
+    color: #ef0000;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.ingredients-item {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #0048e3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.ingredients-item::before {
+    content: "\2714";
+    font-weight: 800;
+    color: #00ab00;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.guarantee {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 30px 0;
+    margin: 40px 0;
+}
+.link-white-text {
+    color: rgb(245, 245, 245);
+    font-size: 2em;
+}
+.black-text {
+    color: #363636;
+}
+.see-pricing {
+    text-align: center;
+}
+.guarantee img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+.try_now {
+    font-size: 3em;
+    color: #d0012b;
+    padding-bottom: .5em;
+}
+.guarantee h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+.narural-img img {
+    width: 100%;
+    max-width: 1000px;
+    cursor: pointer;
+}
+.customer-reviews {
+    color: #002aff;
+}
+.narural-img {
+    text-align: center;
+}
+.Metanail-whatis-Metanail-btn {
+    text-align: center;
+    margin-top: -4em;
+    margin-bottom: 1.5em;
+}
+.Metanail-buy-img img {
+    width: 100%;
+    max-width: 1000px;
+}
+.Metanail-buy-img {
+    text-align: center;
+    cursor: pointer;
+}
+.blue-text {
+    color: blue;
+}
+.red-text {
+    color: red;
+}
+.footer-blacktext {
+    color: #2f2f2fd6;
+}
+.Metanail-results {
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.order {
+    text-align: center;
+}
+.order__bottles {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.order__bottles img {
+    width: 100%;
+    max-width: 325px;
+    transition: ease 0.3s all;
+}
+.limited-time-text {
+    color: red;
+}
+.order__bottles img:hover {
+    transform: scale(1.1);
+}
+.order__title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.order__title,
+.order__subtitle {
+    color: var(--primary-color);
+}
+.checkout__title {
+    color: #fff;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+.checkout__text {
+    text-align: center;
+}
+.orderpage_buy-img {
+    text-align: center;
+    margin: 20px 0;
+}
+.orderpage_buy-img img {
+    width: 100%;
+    max-width: 900px;
+    cursor: pointer;
+}
+.links {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+}
+.links a {
+    color: #fff;
+    font-weight: 600;
+}
+.footer {
+    margin-top: 40px;
+    color: #0000008a;
+}
+.footer p {
+    font-size: 1.4rem;
+}
+.footer__copyright {
+    color: #000000b0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+.white-text {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapper .box{
+    background: #fff;
+    width: calc(33% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.20);
+  }
+  .wrapper .box i.quote{
+    font-size: 20px;
+    color: #17a2b8;
+  }
+  .wrapper .box .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .box .info .name{
+    font-weight: 600;
+    font-size: 21px;
+  }
+  .box .info .location{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e20000;
+    margin-top: 7px;
+    margin-bottom: 11px;
+  }
+  .box .info .stars{
+    margin-top: 2px;
+  }
+  .box .info i{
+    color: #ffbf00;
+  }
+  .stars i{
+    color: #17a2b8;
+  }
+  .box .content .image{
+    height: 90px;
+    width: 90px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+  }
+  .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .box:hover .content .image img{
+    border-color: #fff;
+  }
+  
+  @media (max-width: 1045px) {
+    .wrapper .box{
+      width: calc(50% - 10px);
+      margin: 10px 0;
+    }
+  }
+  @media (max-width: 702px) {
+    .wrapper .box{
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 481px) {
+    p {
+        font-size: 2rem;
+    }
+    .subtitle {
+        font-size: 2.4rem;
+    }
+    .top_title {
+        font-size: 3rem;
+    }
+    .top_subtitle {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 2.2rem;
+    }
+    .subtitle {
+        font-size: 3rem;
+    }
+    .top_navbar {
+        padding: 30px 0;
+    }
+    .text_logo {
+        font-size: 3.4rem;
+    }
+    .top_nav-menu {
+        display: flex;
+    }
+    .top_nav-item {
+        margin-right: 20px;
+    }
+    .top_nav-item a {
+        color: #fff;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+    .top_title {
+        font-size: 3.6rem;
+    }
+    .listbarul_list {
+        margin-left: 20px;
+    }
+    .up_top-container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ulcenter_benefits__list {
+        margin-left: 40px;
+    }
+    .guarantee {
+        text-align: center;
+    }
+    .guarantee h2 {
+        font-size: 3rem;
+    }
+    .order__bottles {
+        flex-direction: row;
+    }
+    .order__text {
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+    }
+    .checkout__title {
+        font-size: 2.6rem;
+    }
+    .links__list {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+    .footer__copyright {
+        text-align: center;
+    }
+    .white-text {
+        font-size: 40px;
+        text-align: center;
+        color: white;
+    }
+    .yellow-text {
+        font-size: 40px;
+        text-align: center;
+        color: rgb(246, 255, 0);
+    }
+}
+@media screen and (min-width: 1025px) {
+    .subtitle {
+        font-size: 4rem;
+    }
+    .text_logo {
+        font-size: 4rem;
+    }
+    .top_title {
+        font-size: 3.8rem;
+    }
+    .white-text {
+        font-size: 40px;
+        text-align: center;
+        color: white;
+    }
+    .yellow-text {
+        font-size: 40px;
+        text-align: center;
+        color: rgb(246, 255, 0);
+    }
+}
